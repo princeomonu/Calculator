@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-center">
+    <h1 class="text-3xl font-bold my-10">Calculator</h1>
+
+    <div id="result" class=" text-left w-full bg-gray-500/50 rounded-sm p-4 my-5 font-semibold border border-sm shadow-lg">
+        0
+    </div>
+
+    <div class="grid grid-cols-4 gap-1 grid-rows-4 text-center items-center justify-center">
+        <div class="button ripple">7</div>
+        <div class="button ripple">8</div>
+        <div class="button ripple">9</div>
+        <div class="button ripple operator">/</div>
+
+        <div class="button ripple">4</div>
+        <div class="button ripple">5</div>
+        <div class="button ripple">6</div>
+        <div class="button ripple operator">x</div>
+
+        <div class="button ripple">1</div>
+        <div class="button ripple">2</div>
+        <div class="button ripple">3</div>
+        <div class="button ripple operator">-</div>
+
+        <div class="button ripple">0</div>
+        <div class="button ripple">.</div>
+        <div class="button ripple operator">c</div>
+        <div class="button ripple operator">+</div>
+        <div class="button ripple col-span-4">=</div>
+    </div>
+   
+    <script src="calc.js"></script>
+</body>
+</html>
